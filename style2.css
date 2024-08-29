@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: #2813a2;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px 0;
+    background-color: #fff;
+}
+
+.about {
+    padding: 20px 0;
+}
+
+.about h2 {
+    color: #333;
+    text-align: center;
+}
+
+.about p {
+    color: #555;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about ul li {
+    background-color: #eee;
+    color: #333;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.team-member {
+    text-align: center;
+    max-width: 200px;
+}
+
+.team-member img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-member h4 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.team-member p {
+    color: #555;
+}
+
+footer {
+    background-color: #2813a2;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
